@@ -1,0 +1,286 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Exo 2', sans-serif;
+
+
+
+}
+
+body {
+  overflow-x:hidden;
+}
+
+
+
+nav {
+  padding:0;
+  margin:0;
+  background-color: #000000;
+  height: 80px;
+  width:100%;
+
+}
+
+nav ul {
+  list-style-type: none;
+  float:right;
+  padding-top: 25px;
+
+
+
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  padding:20px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 30px;
+
+
+
+
+}
+
+nav ul li ul {
+  position: absolute;
+  display: none;
+  background-color: #000000;
+  z-index: 1;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 30px;
+
+
+}
+
+nav ul li:hover ul {
+  display: block;
+  }
+
+nav ul li ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0;
+
+
+}
+
+nav ul li ul li {
+  padding: 10px;
+}
+
+nav p {
+  padding: 5px;
+  color: #FBC02D;
+  margin-left: 40px;
+}
+
+#active{
+  color: #FBC02D;
+}
+
+nav ul li a:hover {
+  color: #FBC02D;
+}
+
+nav ul li ul li a:hover {
+    color: #FBC02D;
+}
+
+.phone-number {
+  float:left;
+  display: inline-block;
+
+}
+
+.phone-number img {
+  float: left;
+  padding-top: 5px;
+}
+
+.email-address {
+  width: 300px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.email-address img {
+  float: left;
+  padding-top:5px;
+}
+
+.icon-wrapper {
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.banner {
+  height: 250px;
+  width: 100%;
+  background-color: #FBC02D;
+  font-size: 14px;
+  position: relative;
+
+}
+
+
+.logo {
+
+  border-right: 1px solid #000000;
+  width: 30%;
+  height: 100%;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+
+
+}
+
+.logo h1 {
+  text-align: center;
+  padding-top: 100px;
+
+
+
+}
+
+.banner h2 {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 115px;
+  position: relative;
+
+
+}
+
+#youtube {
+  right: 30%;
+  top: 60%;
+  position: absolute;
+}
+
+#facebook {
+  right: 26%;
+  top: 60%;
+  position: absolute;
+}
+
+#twitter {
+  right: 22%;
+  top: 60%;
+  position: absolute;
+}
+
+#google {
+  right: 18%;
+  top: 60%;
+  position: absolute;
+}
+
+hr {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-style: inset;
+  border-width: 2px;
+}
+
+#title {
+  margin-left: 200px;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.info {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  background-color: #FBC02D;
+  margin-top: 100px;
+  position: relative;
+}
+
+.info p {
+  padding-top: 270px;
+  font-size: 25px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-image {
+  position: absolute;
+  width: 100%;
+  background-color: #000000;
+  height: 200px;
+  background-image: url("../img/autoelectrics.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -400px;
+
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+  margin-top: 300px;
+
+}
+
+footer ul {
+  float: left;
+  list-style-type: none;
+  padding-top: 100px;
+  padding-left: 100px;
+
+}
+
+footer ul li {
+  display: inline-block;
+
+}
+
+footer ul li a {
+  padding: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+  font-size: 20px;
+}
+
+#news {
+  border: none;
+}
+
+.copyright {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+  padding-left: 30%;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contact-info-footer {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  font-size: 20px;
+  color: #FBC02D;
+}
